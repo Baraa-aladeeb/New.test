@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+
+<html>
+
+    <style>
+
+        body{
+
+    background-color: rgb(242, 227, 208);
+
+    font-family:'Markazi Text',serif;
+
+    margin-top: 3rem;
+
+    margin-bottom: 3rem;
+
+    margin-left: 5%;
+
+    margin-right: 5%;
+
+}
+
+h1{
+
+    font-size: 3rem;
+
+}
+
+h2{
+
+    font-size: 2rem;
+
+}
+
+header > img{
+
+    display:block;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+}
+
+.contant{
+
+    background-color: #e47777;
+
+    display: flex;
+
+    flex-flow:row wrap;
+
+    justify-content:stretch;
+
+}
+
+.contant li{
+
+    display:inline-block;
+
+    list-style-type: none;
+
+}
+
+.contant a{
+
+    display: inline-block;
+
+    padding: 5px;
+
+    margin: 0 125px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    color: #ffffff;
+
+}
+
+.contant a:hover{
+
+    background-color: rgb(231, 182, 109);
+
+}
+
+section{
+
+    display: flex;
+
+}
+
+article{
+
+    flex: 1;
+
+}
+
+footer{
+
+    display: flex;
+
+}
+
+footer div{
+
+    flex: 1;
+
+}
+
+.off{
+
+    border: solid  rgb(231, 182, 109) ;
+
+    border-radius: 15px;
+
+    background-image: url("photo_2023-04-19_23-41-34.jpg");
+
+    margin: 50px 10px 30px auto;
+
+    padding: 2px 25px 2px 25px;
+
+}
+
+.article{
+
+    border: solid  rgb(231, 182, 109) ;
+
+    border-radius: 15px;
+
+    margin: 10px 10px 20px auto;
+
+    padding: 2px 25px 2px 25px;
+
+    background-color: #ebbd97;
+
+}
+
+.img1:hover{
+
+    transform:rotateY(360deg);
+
+    opacity: 50%;
+
+    transition: 2s;
+
+}
+
+.link:link{
+
+    color: rgb(33, 33, 144);
+
+}
+
+.link:visited{
+
+    color: rgb(255, 0, 0);
+
+}
+
+.link:hover{
+
+    color: rgb(156, 48, 116);
+
+}
+
+.link:active{
+
+    color: black;
+
+}
+
+.footer{
+
+    border-top: solid black;
+
+}
+
+    </style>
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <title>Hair Day</title>
+
+    <meta name="description"
+
+        content="Hair Day is a boutique hair salon that specializes in cut , color and styling . Hair Day also offers makeup and nail services">
+
+    <meta name="authour" content="Hair Day">
+
+    <!--includ your css file here-->
+
+    <link rel="stylesheet" href="hair.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <img src="C:\Users\Baraa\Pictures\Artboard 22.png" width="700">
+
+    </header>
+
+    <nav class="contant">
+
+        <ul>
+
+            <li><a href="hair.html">Home</a></li>
+
+            <li><a href="Reservation.html">Reservation</a></li>
+
+            <li><a href="Courses.html"> Courses</a></li>
+
+            <li><a href="about.html">About</a></li>
+
+        </ul>
+
+    </nav>
+
+    <main>
+
+        <section >
+
+            <article class="off">
+
+                <h1>20% off this weekend</h1>
+
+                <p>treat yourself Pamper with the most skilled experts in the field of hairdressing and coloring, as we do the latest hair-cutting trends, and there are offers for nail care. You can also choose the outfit you want, and we will design it for our famous fashion experts <em>Ralph Lauren</em> and <em>Jimmy Choo</em> Hurry up to the stone before the place is full.</p>
+
+                  <P><b>the boutique is located in <em>Madison,Wisconsin</em></b>...
+
+                   we await your visit❤️</p>
+
+            </article>
+
+        </section>
+
+        <section>
+
+            <article class="article" class="lg1" class="mg1">
+
+                <h2>Our services and Reservation</h2>
+
+                <img src="photo_2023-04-19_23-30-33.jpg" width="200" height="200"class="img1">
+
+                <p>We do the latest trends in cutting, styling and coloring hair by international experts. We also provide nail care services. We also have a special section for designing the latest fashions and models.</p>
+
+                <p> you can book an appointment here..👇</p>
+
+                <a href="www.see more of our services.com" class="link">see more of our services..</a>
+
+            </article>
+
+            <article class="article" class="lg2" class="mg2">
+
+                <h2>Our training courses</h2>
+
+                <img src="photo_2023-04-19_23-41-28.jpg" width="200" height="200" class="img1">
+
+                <p>We offer training courses on teaching makeup ,how to cut and dye hair, run by the owner of the boutique Pair With international certificates.</p>
+
+                <p>We receive registration requests every Tuesday and Thursday❤️</p>
+
+                <P> you can register for the course from here..👇</p>
+
+                <a href="www.Book an appointment.com" class="link">Book an appointment</a>
+
+            </article>
+
+            <article class="article" class="lg3" class="mg3">
+
+                <h2>Other Information</h2>
+
+                <img src="C:\Users\Baraa\Desktop\محاضرات\IMG_20230419_233037_733.jpg" width="200" height="200" class="img1">
+
+                <p>The salon was opened by Bira along with her good friend and talented hairdresser Gary. </p>
+
+                <p>We have a staff of seven: two costume designers, three colorists, one manicurist and one make-up artistThe salon was opened by Bira along with her good friend and talented hairdresser Gary.  We have a staff of seven: two costume designers, three colorists, one manicurist and one make-up artist❤️</p>
+
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div>
+
+            <img src="C:\Users\Baraa\Pictures\Artboard 1.png" width="100" height="100">
+
+        </div>
+
+        <div class="footer">
+
+            <p>Copyright Hair Day</p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
